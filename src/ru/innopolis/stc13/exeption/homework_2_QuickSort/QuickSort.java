@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class QuickSort {
     public static void quickSort(int[] array, int first, int last) {
         if (array.length == 0) {
-            return;
+            new MyExeption("Length null");
         }
         if (first >= last) {
             return;

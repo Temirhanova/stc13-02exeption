@@ -3,6 +3,7 @@ package ru.innopolis.stc13.exeption.tsf;
 public class Simple {
     public static void main(String[] args) {
         System.out.println("Program strated");
+        System.out.println("Program strated 2 test git");
         Calculator calculator = new Calculator();
         System.out.println(calculator.divide(6, 0));
 //
